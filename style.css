@@ -1,0 +1,128 @@
+:root {
+  --bg: #1e1e2f;
+  --text: #ffffff;
+  --btn: #3e3e4e;
+  --btn-hover: #5a5a6e;
+  --btn-active: #7a7a8e;
+  --title: #ffd700;
+}
+
+body.light {
+  --bg: #f0f0f0;
+  --text: #000000;
+  --btn: #d0d0d0;
+  --btn-hover: #c0c0c0;
+  --btn-active: #a0a0a0;
+  --title: #0057b7;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+.title {
+  font-size: 2rem;
+  color: var(--title);
+  margin: 0;
+}
+
+.subtitle {
+  margin: 5px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.mode-switch {
+  background: var(--btn);
+  color: var(--text);
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.mode-switch:hover {
+  background: var(--btn-hover);
+}
+
+.mode-switch:active {
+  transform: scale(0.95);
+}
+
+.calculator {
+  background: var(--btn);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  max-width: 320px;
+  width: 100%;
+  transition: background 0.5s ease;
+}
+
+#display {
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  text-align: right;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #222;
+  color: white;
+  font-family: inherit;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+button {
+  height: 50px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background: var(--btn);
+  color: var(--text);
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: var(--btn-hover);
+}
+
+button:active {
+  background: var(--btn-active);
+  transform: scale(0.95);
+}
+
+#history {
+  width: 100%;
+  max-height: 100px;
+  overflow-y: auto;
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+@media (max-width: 400px) {
+  .buttons {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
