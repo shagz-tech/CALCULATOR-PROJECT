@@ -17,7 +17,7 @@ A modern, responsive Scientific Calculator built using HTML, CSS, and JavaScript
 
  🚀 Live Demo
 
-🔗 [Click to view live](#) *(Add your GitHub Pages or deployed link here)*
+🔗 [https://shagz-tech.github.io/CALCULATOR-PROJECT/]
 
 ---
 
@@ -48,6 +48,7 @@ calculator/
 📤 Export results as .txt
 
 🙋‍♂️ Author
+
 Shagun Gupta
 🔗 GitHub ()
 🔗 Portfolio (Add if available)
