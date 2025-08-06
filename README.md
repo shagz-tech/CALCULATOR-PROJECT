@@ -50,5 +50,7 @@ calculator/
 🙋‍♂️ Author
 
 Shagun Gupta
-🔗 GitHub ()
-🔗 Portfolio (Add if available)
+
+🔗 GitHub (https://github.com/shagz-tech)
+🔗 Portfolio (https://shagz-tech.github.io/portfolio/)
+
