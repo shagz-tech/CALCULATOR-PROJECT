@@ -4,6 +4,17 @@ A modern, responsive Scientific Calculator built using HTML, CSS, and JavaScript
 
 ---
 
+ 📁 Project Structure
+calculator/
+├── index.html # Main HTML file
+
+├── style.css # Styling (Light/Dark theme, animations)
+
+├── script.js # Calculator logic and theme toggling
+
+├── README.md # Project documentation
+
+
  ✨ Features
 
 - ✅ Basic operations: Addition, Subtraction, Multiplication, Division
@@ -28,13 +39,6 @@ A modern, responsive Scientific Calculator built using HTML, CSS, and JavaScript
 - **JavaScript (Vanilla)** – Logic and interactivity  
 
 ---
-
- 📁 Project Structure
-calculator/
-├── index.html # Main HTML file
-├── style.css # Styling (Light/Dark theme, animations)
-├── script.js # Calculator logic and theme toggling
-├── README.md # Project documentation
 
 💡 Future Enhancements
 ⌨️ Keyboard input support
