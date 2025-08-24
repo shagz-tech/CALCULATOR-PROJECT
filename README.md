@@ -5,7 +5,9 @@ A modern, responsive Scientific Calculator built using HTML, CSS, and JavaScript
 ---
 
  📁 Project Structure
+ 
 calculator/
+
 ├── index.html # Main HTML file
 
 ├── style.css # Styling (Light/Dark theme, animations)
@@ -55,6 +57,8 @@ calculator/
 
 Shagun Gupta
 
+
 🔗 GitHub (https://github.com/shagz-tech)
+
 🔗 Portfolio (https://shagz-tech.github.io/portfolio/)
 
